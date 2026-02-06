@@ -1,103 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Interest Rates</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f6f8;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-        }
-
-        th, td {
-            padding: 12px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #2c7be5;
-            color: white;
-        }
-    </style>
+    <title>Great Rates Bank</title>
 </head>
 <body>
-
-<h1>Financial Products - Updated Layout</h1>
-
-<div class="product-wrapper">
-    <table id="productTable">
+    <h1>Current Mortgage Rates</h1>
+    <table id="ratesTable" border="1">
         <thead>
             <tr>
-                <th>Product ID</th>
-                <th>Product Name</th>
-                <th>Institution</th>
-                <th>Product Type</th>
-
-                <!-- STRUCTURE CHANGE -->
-                <th>APY</th>
-
-                <th>Minimum Deposit ($)</th>
-                <th>Last Updated</th>
+                <th>Product</th>
+                <th>Rate</th>
+                <th>APR</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
-                <td>101</td>
-                <td>High Yield Savings</td>
-                <td>Alpha Bank</td>
-                <td>Savings</td>
-
-                <!-- RATE MOVED INTO NESTED STRUCTURE -->
-                <td>
-                    <div class="rate-container">
-                        <span class="rate-value">5.25%</span>
-                    </div>
-                </td>
-
-                <td>1000</td>
-                <td>2026-02-06</td>
+                <td>30 Year Fixed</td>
+                <td>3.500%</td>
+                <td>3.620%</td>
             </tr>
-
             <tr>
-                <td>102</td>
-                <td>Premium CD - 12 Month</td>
-                <td>Metro Credit Union</td>
-                <td>CD</td>
-                <td>
-                    <div class="rate-container">
-                        <span class="rate-value">5.75%</span>
-                    </div>
-                </td>
-                <td>5000</td>
-                <td>2026-02-06</td>
-            </tr>
-
-            <tr>
-                <td>103</td>
-                <td>Standard Savings</td>
-                <td>National Bank</td>
-                <td>Savings</td>
-                <td>
-                    <div class="rate-container">
-                        <span class="rate-value">4.10%</span>
-                    </div>
-                </td>
-                <td>500</td>
-                <td>2026-02-06</td>
+                <td>15 Year Fixed</td>
+                <td>2.750%</td>
+                <td>2.900%</td>
             </tr>
         </tbody>
     </table>
-</div>
-
 </body>
 </html>
